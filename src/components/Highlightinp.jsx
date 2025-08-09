@@ -32,7 +32,9 @@ const Highlightinp = ({ pattern }) => {
         placeholder="Enter text"
         id="inp"
       />
-      <div className="mt-4 text-2xl font-bold text-gray-800 " >{highlightText(inputText)}</div>
+      <div className="mt-4 text-2xl font-bold text-gray-800 ">
+        {highlightText(inputText)}
+      </div>
     </div>
   );
 };
