@@ -1,4 +1,3 @@
-// Components/Highlightinp.jsx
 import React, { useState } from 'react';
 
 const Highlightinp = ({ pattern }) => {
